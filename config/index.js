@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "059ef9070c7cf3f52c83bb4a0bfb44d7",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "iGHAw0Z_ZByMyFYp02UhdGDFBYj7qSWUCAQIE5ykB6w",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -45,15 +45,6 @@ export const config = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "阳历", "year": "1999", "date": "09-31"},
       ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
-      ]
     },
     {
       name: "老婆1",
